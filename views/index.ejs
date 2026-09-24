@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JOEFRED Trading & Real Estate Investment</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-amber-400 selection:text-slate-900">
+
+  <!-- Header / Navigation -->
+  <header class="bg-slate-900 text-white py-3.5 px-4 md:px-8 shadow-xl sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      
+      <!-- Logo & Brand Name -->
+      <a href="#" class="flex items-center space-x-2 md:space-x-3">
+        <img src="/images/logo.jpg" alt="JOEFRED Logo" class="h-9 w-9 md:h-10 md:w-10 rounded-full object-cover border border-amber-400/40" onerror="this.style.display='none'">
+        <span class="text-base md:text-xl font-bold tracking-wide text-amber-400">JOEFRED TRADING</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="hidden md:flex items-center space-x-7 text-sm font-semibold">
+        <a href="#about" class="hover:text-amber-400 transition">About Us</a>
+        <a href="#services" class="hover:text-amber-400 transition">Real Estate</a>
+        <a href="#materials" class="hover:text-amber-400 transition">Building Materials</a>
+        <a href="#why-us" class="hover:text-amber-400 transition">Why Choose Us</a>
+        <a href="#process" class="hover:text-amber-400 transition">How It Works</a>
+        <a href="#contact" class="hover:text-amber-400 transition">Contact</a>
+      </nav>
+
+      <!-- Desktop Call to Action -->
+      <div class="hidden md:flex items-center space-x-4">
+        <a href="tel:+233276061417" class="text-xs font-semibold text-gray-300 hover:text-amber-400 transition">📞 +233 27 606 1417</a>
+        <a href="#contact" class="bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold px-4 py-2 rounded-lg transition text-sm">Inquire Now</a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="menuBtn" class="md:hidden text-amber-400 focus:outline-none p-1" aria-label="Toggle Navigation">
+        <svg id="hamburgerIcon" class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+        <svg id="closeIcon" class="w-7 h-7 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobileMenu" class="hidden md:hidden bg-slate-900 border-t border-slate-800 mt-3 pt-4 pb-6 px-4 space-y-4">
+      <a href="#about" class="block text-gray-200 hover:text-amber-400 font-medium py-1 mobile-link">About Us</a>
+      <a href="#services" class="block text-gray-200 hover:text-amber-400 font-medium py-1 mobile-link">Real Estate</a>
+      <a href="#materials" class="block text-gray-200 hover:text-amber-400 font-medium py-1 mobile-link">Building Materials</a>
+      <a href="#why-us" class="block text-gray-200 hover:text-amber-400 font-medium py-1 mobile-link">Why Choose Us</a>
+      <a href="#process" class="block text-gray-200 hover:text-amber-400 font-medium py-1 mobile-link">How It Works</a>
+      <a href="#contact" class="block text-gray-200 hover:text-amber-400 font-medium py-1 mobile-link">Contact</a>
+      <div class="pt-2 border-t border-slate-800 flex flex-col space-y-3">
+        <a href="tel:+233276061417" class="text-amber-400 font-semibold text-sm">📞 Call +233 27 606 1417</a>
+        <a href="#contact" class="bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold px-4 py-2.5 rounded-lg text-center transition text-sm mobile-link">Inquire Now</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative bg-slate-900 text-white py-16 sm:py-24 md:py-28 px-4 sm:px-6 bg-cover bg-center" style="background-image: linear-gradient(rgba(15, 23, 42, 0.88), rgba(15, 23, 42, 0.88)), url('/images/hero-bg.jpg');">
+    <div class="max-w-4xl mx-auto text-center">
+      <span class="inline-block bg-amber-500/10 border border-amber-400/30 text-amber-400 font-semibold uppercase tracking-wider text-xs sm:text-sm px-3.5 py-1.5 rounded-full mb-4">
+        Real Estate & Quality Building Supplies
+      </span>
+      <h1 class="text-2xl sm:text-4xl md:text-6xl font-extrabold text-white leading-tight break-words mb-6">
+        JOEFRED TRADING & REAL ESTATE INVESTMENT
+      </h1>
+      
+      <!-- Welcome Quote -->
+      <div class="bg-slate-800/90 border-l-4 border-amber-400 p-4 sm:p-6 rounded-r-lg text-left my-6 md:my-8 max-w-2xl mx-auto shadow-2xl backdrop-blur-sm">
+        <p class="text-gray-200 text-sm sm:text-base md:text-lg italic leading-relaxed">
+          "Hello, welcome to JOEFRED TRADING AND REAL ESTATE INVESTMENT. Your authentic partner in litigation-free plots, estate services, and quality building materials. Let's know how we can assist you. Thank you."
+        </p>
+      </div>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6">
+        <a href="#materials" class="w-full sm:w-auto bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold px-8 py-3.5 rounded-lg shadow-lg transition text-sm md:text-base">Order Building Materials</a>
+        <a href="#services" class="w-full sm:w-auto border border-gray-400 hover:border-amber-400 text-gray-200 hover:text-amber-400 font-semibold px-8 py-3.5 rounded-lg transition text-sm md:text-base">Explore Serviced Plots</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="py-14 sm:py-20 px-4 sm:px-6 max-w-6xl mx-auto">
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <span class="text-amber-500 font-bold uppercase tracking-wider text-xs sm:text-sm">Who We Are</span>
+        <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mt-1 mb-4">Your One-Stop Destination for Land & Construction Supplies</h2>
+        <p class="text-gray-600 text-xs sm:text-sm leading-relaxed mb-4">
+          At **JOEFRED TRADING AND REAL ESTATE INVESTMENT**, we streamline the entire property development journey. We don't just sell litigation-free plots and manage estate documentation — we also supply top-grade construction materials to build your vision from the ground up.
+        </p>
+        <p class="text-gray-600 text-xs sm:text-sm leading-relaxed mb-6">
+          From acquiring your site plan and indenture to supplying premium cement, high-tensile iron rods, durable blocks, timber, and roofing sheets, we give you end-to-end reliability and peace of mind.
+        </p>
+        <div class="grid grid-cols-2 gap-4 border-t border-gray-200 pt-6">
+          <div>
+            <span class="block text-2xl font-extrabold text-slate-900">100%</span>
+            <span class="text-xs text-gray-500">Litigation-Free Land</span>
+          </div>
+          <div>
+            <span class="block text-2xl font-extrabold text-slate-900">Top-Grade</span>
+            <span class="text-xs text-gray-500">Certified Building Materials</span>
+          </div>
+        </div>
+      </div>
+      <div class="rounded-2xl overflow-hidden shadow-xl border border-gray-200">
+        <img src="/images/real-estate.jpg" alt="JOEFRED Real Estate & Supplies" class="w-full h-72 sm:h-96 object-cover" onerror="this.src='https://via.placeholder.com/600x400?text=JOEFRED+Real+Estate+%26+Supplies'">
+      </div>
+    </div>
+  </section>
+
+  <!-- Real Estate Services -->
+  <section id="services" class="bg-slate-100 py-14 sm:py-20 px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-10 sm:mb-14">
+        <span class="text-amber-500 font-bold uppercase tracking-wider text-xs sm:text-sm">Real Estate Solutions</span>
+        <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mt-1">Serviced Plots & Estate Management</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+        
+        <!-- Card 1 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-xl transition flex flex-col">
+          <img src="/images/serviced-plots.jpg" alt="Serviced Plots" class="h-48 w-full object-cover" onerror="this.src='https://via.placeholder.com/400x250?text=Serviced+Plots'">
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-lg sm:text-xl font-bold mb-2 text-slate-900">Serviced Plots</h3>
+              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">Prime, litigation-free land demarcated with accessible roads, electricity, and main water connections ready for immediate construction.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-xl transition flex flex-col">
+          <img src="/images/real-estate.jpg" alt="Real Estate Investment" class="h-48 w-full object-cover" onerror="this.src='https://via.placeholder.com/400x250?text=Real+Estate+Investment'">
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-lg sm:text-xl font-bold mb-2 text-slate-900">Real Estate Investment</h3>
+              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">Strategic land acquisitions and investment advisory tailored to yield high appreciation rates for private buyers and developers.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-xl transition flex flex-col">
+          <img src="/images/estate-services.jpg" alt="Estate Services" class="h-48 w-full object-cover" onerror="this.src='https://via.placeholder.com/400x250?text=Estate+Services'">
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-lg sm:text-xl font-bold mb-2 text-slate-900">Land Title & Documentation</h3>
+              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">Full legal backing, title registration assistance, site plan drafting, and land documentation to secure your ownership.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Building Materials Section -->
+  <section id="materials" class="py-14 sm:py-20 px-4 sm:px-6 max-w-6xl mx-auto">
+    <div class="text-center max-w-2xl mx-auto mb-10 sm:mb-14">
+      <span class="text-amber-500 font-bold uppercase tracking-wider text-xs sm:text-sm">Construction Supplies</span>
+      <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mt-1">High-Quality Building Materials</h2>
+      <p class="text-gray-600 text-xs sm:text-sm mt-2">We supply commercial and residential building projects with top-quality materials delivered on schedule.</p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+      <!-- Material Item 1 -->
+      <div class="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition overflow-hidden flex flex-col">
+        <img src="/images/cement.jpg" alt="Cement & Concrete Supplies" class="h-48 w-full object-cover" onerror="this.src='https://via.placeholder.com/400x250?text=Cement+Supplies'">
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="font-bold text-slate-900 text-lg mb-2">Cement & Concrete Supplies</h3>
+            <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">High-grade bagged cement suitable for molding, block work, foundations, and heavy structural concreting.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Material Item 2 -->
+      <div class="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition overflow-hidden flex flex-col">
+        <img src="/images/iron-rods.jpg" alt="High-Tensile Iron Rods" class="h-48 w-full object-cover" onerror="this.src='https://via.placeholder.com/400x250?text=Iron+Rods'">
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="font-bold text-slate-900 text-lg mb-2">High-Tensile Iron Rods</h3>
+            <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">Standard high-tensile steel iron rods in various gauge sizes (10mm, 12mm, 16mm, etc.) for reinforced structures.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Material Item 3 -->
+      <div class="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition overflow-hidden flex flex-col">
+        <img src="/images/building-blocks.jpg" alt="Building Blocks" class="h-48 w-full object-cover" onerror="this.src='https://via.placeholder.com/400x250?text=Building+Blocks'">
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="font-bold text-slate-900 text-lg mb-2">Building Blocks</h3>
+            <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">Solid and hollow concrete building blocks (5-inch & 6-inch) molded with high compression strength.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Material Item 4 -->
+      <div class="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition overflow-hidden flex flex-col">
+        <img src="/images/timber-wood.jpg" alt="Quality Timber & Wood" class="h-48 w-full object-cover" onerror="this.src='https://via.placeholder.com/400x250?text=Timber+%26+Wood'">
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="font-bold text-slate-900 text-lg mb-2">Quality Timber & Wood</h3>
+            <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">Treated timber, wood boards, rafters, and roofing wood cut to accurate sizes for construction projects.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Material Item 5 -->
+      <div class="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition overflow-hidden flex flex-col">
+        <img src="/images/roofing-sheets.jpg" alt="Roofing Sheets" class="h-48 w-full object-cover" onerror="this.src='https://via.placeholder.com/400x250?text=Roofing+Sheets'">
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="font-bold text-slate-900 text-lg mb-2">Roofing Sheets</h3>
+            <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">Durable aluminum and IBR roofing sheets, shingles, and accessories for weather-resistant roofs.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Material Item 6 -->
+      <div class="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition overflow-hidden flex flex-col">
+        <img src="/images/aggregates.jpg" alt="Sand & Quarry Aggregates" class="h-48 w-full object-cover" onerror="this.src='https://via.placeholder.com/400x250?text=Sand+%26+Aggregates'">
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="font-bold text-slate-900 text-lg mb-2">Sand & Quarry Aggregates</h3>
+            <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">Prompt trip delivery of sharp sand, plaster sand, stones, and gravel directly to your site location.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section id="why-us" class="bg-slate-100 py-14 sm:py-20 px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-10 sm:mb-14">
+        <span class="text-amber-500 font-bold uppercase tracking-wider text-xs sm:text-sm">Why Work With Us</span>
+        <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mt-1">Integrity, Quality & Prompt Delivery</h2>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm text-center">
+          <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">📜</div>
+          <h3 class="font-bold text-slate-900 mb-2">Litigation Free</h3>
+          <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">All plots undergo thorough legal checks to guarantee hassle-free land ownership.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm text-center">
+          <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">🛡️</div>
+          <h3 class="font-bold text-slate-900 mb-2">Genuine Materials</h3>
+          <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">We source certified cement, steel, and timber straight from trusted manufacturers.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm text-center">
+          <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">🚚</div>
+          <h3 class="font-bold text-slate-900 mb-2">Site Delivery</h3>
+          <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">We handle logistical transport to supply materials right to your project location.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm text-center">
+          <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">🤝</div>
+          <h3 class="font-bold text-slate-900 mb-2">Transparent Pricing</h3>
+          <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">Competitive price rates with zero hidden charges or unexpected costs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works / Step-by-Step -->
+  <section id="process" class="bg-slate-900 text-white py-14 sm:py-20 px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-10 sm:mb-14">
+        <span class="text-amber-400 font-bold uppercase tracking-wider text-xs sm:text-sm">Simple Process</span>
+        <h2 class="text-2xl sm:text-3xl font-bold text-white mt-1">4 Easy Steps to Get Started</h2>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 relative">
+          <span class="text-amber-400 font-extrabold text-3xl block mb-2">01</span>
+          <h3 class="font-bold text-lg mb-2">Submit Request</h3>
+          <p class="text-gray-300 text-xs sm:text-sm leading-relaxed">Select your needed plot location or building material quantity in our form below.</p>
+        </div>
+
+        <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 relative">
+          <span class="text-amber-400 font-extrabold text-3xl block mb-2">02</span>
+          <h3 class="font-bold text-lg mb-2">Quote & Inspection</h3>
+          <p class="text-gray-300 text-xs sm:text-sm leading-relaxed">Receive instant material quotes or schedule a free guided land site inspection.</p>
+        </div>
+
+        <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 relative">
+          <span class="text-amber-400 font-extrabold text-3xl block mb-2">03</span>
+          <h3 class="font-bold text-lg mb-2">Order / Verification</h3>
+          <p class="text-gray-300 text-xs sm:text-sm leading-relaxed">Confirm land titles or finalize supply orders directly with our official representative.</p>
+        </div>
+
+        <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 relative">
+          <span class="text-amber-400 font-extrabold text-3xl block mb-2">04</span>
+          <h3 class="font-bold text-lg mb-2">Delivery & Keys</h3>
+          <p class="text-gray-300 text-xs sm:text-sm leading-relaxed">Receive full legal indentures for land or prompt material offloading at your site.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-slate-100 py-14 sm:py-20 px-4 sm:px-6">
+    <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 bg-white p-5 sm:p-8 md:p-12 rounded-2xl shadow-lg">
+      
+      <!-- Contact Info -->
+      <div class="flex flex-col justify-between">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mb-3 md:mb-4">Let's Assist You</h2>
+          <p class="text-gray-600 text-xs sm:text-sm mb-6 leading-relaxed">Reach out to us directly or fill out the form to submit your land inquiry or material quote request directly to management.</p>
+        </div>
+        
+        <div class="space-y-4 text-slate-700 text-sm md:text-base mb-6 md:mb-0">
+          <p class="flex items-center space-x-3">
+            <span class="text-amber-500 font-bold text-base sm:text-lg">📍</span>
+            <span>Accra, Ghana</span>
+          </p>
+          <p class="flex items-center space-x-3">
+            <span class="text-amber-500 font-bold text-base sm:text-lg">📞</span>
+            <a href="tel:+233276061417" class="hover:text-amber-500 font-medium transition">+233 27 606 1417</a>
+          </p>
+          <p class="flex items-center space-x-3">
+            <span class="text-amber-500 font-bold text-base sm:text-lg">💬</span>
+            <a href="https://wa.me/233276061417" target="_blank" class="text-green-600 font-semibold hover:underline">Chat on WhatsApp</a>
+          </p>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div>
+        <!-- Success Alert -->
+        <div id="successMessage" class="hidden bg-green-100 border border-green-400 text-green-800 px-3.5 py-2.5 rounded-lg mb-4 text-xs sm:text-sm font-medium">
+          Thank you! Your inquiry has been sent successfully. We will contact you shortly.
+        </div>
+        
+        <!-- Error Alert -->
+        <div id="errorMessage" class="hidden bg-red-100 border border-red-400 text-red-800 px-3.5 py-2.5 rounded-lg mb-4 text-xs sm:text-sm font-medium">
+          Unable to send message right now. Please call us directly on +233 27 606 1417.
+        </div>
+
+        <form id="contactForm" class="space-y-3.5 sm:space-y-4">
+          <div>
+            <label class="block text-xs sm:text-sm font-medium mb-1">Full Name <span class="text-red-500">*</span></label>
+            <input type="text" id="clientName" required placeholder="Enter your full name" class="w-full border border-gray-300 rounded-lg p-2.5 sm:p-3 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-amber-400">
+          </div>
+          <div>
+            <label class="block text-xs sm:text-sm font-medium mb-1">Phone / WhatsApp <span class="text-red-500">*</span></label>
+            <input type="tel" id="clientPhone" required placeholder="Enter phone number" class="w-full border border-gray-300 rounded-lg p-2.5 sm:p-3 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-amber-400">
+          </div>
+          <div>
+            <label class="block text-xs sm:text-sm font-medium mb-1">Email Address <span class="text-[10px] sm:text-xs text-gray-500">(Optional)</span></label>
+            <input type="email" id="clientEmail" placeholder="Enter email address" class="w-full border border-gray-300 rounded-lg p-2.5 sm:p-3 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-amber-400">
+          </div>
+          <div>
+            <label class="block text-xs sm:text-sm font-medium mb-1">Service / Supply Required</label>
+            <select id="clientService" class="w-full border border-gray-300 rounded-lg p-2.5 sm:p-3 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-amber-400 bg-white">
+              <optgroup label="Real Estate Services">
+                <option value="Serviced Plots">Serviced Plots</option>
+                <option value="Real Estate Investment">Real Estate Investment</option>
+                <option value="Estate Services / Documentation">Estate Documentation</option>
+              </optgroup>
+              <optgroup label="Building Materials">
+                <option value="Cement Supply">Cement</option>
+                <option value="Iron Rods Supply">Iron Rods</option>
+                <option value="Building Blocks">Building Blocks</option>
+                <option value="Timber and Wood">Timber & Wood</option>
+                <option value="Roofing Sheets">Roofing Sheets</option>
+                <option value="Sand and Aggregate">Sand / Gravel / Aggregates</option>
+              </optgroup>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs sm:text-sm font-medium mb-1">Message <span class="text-red-500">*</span></label>
+            <textarea id="clientMessage" rows="3" required placeholder="Describe your request or material quantities..." class="w-full border border-gray-300 rounded-lg p-2.5 sm:p-3 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-amber-400"></textarea>
+          </div>
+          <button type="submit" id="submitBtn" class="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-3 rounded-lg transition flex items-center justify-center space-x-2 text-xs sm:text-sm">
+            <span id="btnText">Send Message</span>
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Scam Alert Banner -->
+  <section class="bg-amber-50 border-y border-amber-200 py-5 sm:py-6 px-4 sm:px-6">
+    <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+      <span class="text-xl sm:text-2xl">⚠️</span>
+      <div class="text-xs sm:text-sm text-amber-900 leading-relaxed">
+        <strong class="font-bold text-amber-950 uppercase block sm:inline mb-1 sm:mb-0">Important Security & Anti-Scam Notice: </strong>
+        Please note: Do not send payment or mobile money transfers to any individual account or phone number before verifying land documentation or material orders with JOEFRED TRADING AND REAL ESTATE INVESTMENT directly (+233 27 606 1417).
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-gray-400 py-8 px-4 text-center text-xs sm:text-sm border-t border-slate-800">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p>&copy; JOEFRED TRADING AND REAL ESTATE INVESTMENT. All rights reserved.</p>
+      <div class="flex space-x-6">
+        <a href="#about" class="hover:text-amber-400 transition">About</a>
+        <a href="#services" class="hover:text-amber-400 transition">Real Estate</a>
+        <a href="#materials" class="hover:text-amber-400 transition">Materials</a>
+        <a href="#contact" class="hover:text-amber-400 transition">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Navigation & Form Script -->
+  <script>
+    // Hamburger Menu Toggle
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const hamburgerIcon = document.getElementById('hamburgerIcon');
+    const closeIcon = document.getElementById('closeIcon');
+
+    menuBtn.addEventListener('click', () => {
+      const isOpen = !mobileMenu.classList.contains('hidden');
+      if (isOpen) {
+        mobileMenu.classList.add('hidden');
+        hamburgerIcon.classList.remove('hidden');
+        closeIcon.classList.add('hidden');
+      } else {
+        mobileMenu.classList.remove('hidden');
+        hamburgerIcon.classList.add('hidden');
+        closeIcon.classList.remove('hidden');
+      }
+    });
+
+    // Close mobile menu when clicking any link inside it
+    document.querySelectorAll('.mobile-link').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+        hamburgerIcon.classList.remove('hidden');
+        closeIcon.classList.add('hidden');
+      });
+    });
+
+    // Contact Form Handler
+    document.getElementById('contactForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+
+      const submitBtn = document.getElementById('submitBtn');
+      const btnText = document.getElementById('btnText');
+      const successMsg = document.getElementById('successMessage');
+      const errorMsg = document.getElementById('errorMessage');
+
+      btnText.innerText = 'Sending...';
+      submitBtn.disabled = true;
+      successMsg.classList.add('hidden');
+      errorMsg.classList.add('hidden');
+
+      const payload = {
+        name: document.getElementById('clientName').value,
+        phone: document.getElementById('clientPhone').value,
+        email: document.getElementById('clientEmail').value || 'Not provided',
+        service: document.getElementById('clientService').value,
+        message: document.getElementById('clientMessage').value
+      };
+
+      try {
+        const response = await fetch('/send-message', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+          successMsg.classList.remove('hidden');
+          document.getElementById('contactForm').reset();
+        } else {
+          errorMsg.classList.remove('hidden');
+        }
+      } catch (err) {
+        errorMsg.classList.remove('hidden');
+      } finally {
+        btnText.innerText = 'Send Message';
+        submitBtn.disabled = false;
+      }
+    });
+  </script>
+
+</body>
+</html>
